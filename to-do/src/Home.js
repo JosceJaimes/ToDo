@@ -4,6 +4,7 @@ import './App.css';
 import { todos } from './todos.json'
 import './components/TodoForms'
 import TodoForm from './components/TodoForms';
+import Routers from './Routes'
 
 
 class App extends Component {
@@ -33,7 +34,7 @@ class App extends Component {
       return(
         // console.log(todo)
         <div className= "col-md-4"> 
-           <div className="card mt-4">
+           <div className="card col-md-4">
               <div className="card-header">
                  <h3>{todo.title}</h3>
                <span className="badge badge-pill badge-danger ml-2"> 
